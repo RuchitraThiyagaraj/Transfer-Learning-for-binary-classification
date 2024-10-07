@@ -211,14 +211,10 @@ plt.show()
 
 ### Conclusion
 The transfer learning model with InceptionV3 successfully classifies horse and human images, achieving high accuracy through effective data augmentation. This approach demonstrates strong generalization, making it suitable for practical applications in image classification.
-
-</br>
 </br>
 </br>
 
 ## RESULT
 Transfer Learning for Horses_vs_humans dataset classification using InceptionV3 architecture is implemented successfully.
-
-</br>
 </br>
 </br>
