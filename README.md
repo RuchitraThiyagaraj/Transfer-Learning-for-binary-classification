@@ -9,14 +9,23 @@ To Implement Transfer Learning for Horses_vs_humans dataset classification using
 
 ## DESIGN STEPS
 ### STEP 1:
+Load the InceptionV3 model without top layers and freeze its weights.
 </br>
 
 ### STEP 2:
+Add custom layers for classification and compile the model.
 </br>
 
 ### STEP 3:
+Prepare training and validation datasets with data augmentation.
+<br/>
 
-Write your own steps
+### STEP 4:
+Train the model using the fit method with an early stopping callback.
+<br/>
+
+### STEP 4:
+Plot training and validation accuracy/loss for performance evaluation.
 <br/>
 
 ## PROGRAM
@@ -201,11 +210,15 @@ plt.show()
 </br>
 
 ### Conclusion
+The transfer learning model with InceptionV3 successfully classifies horse and human images, achieving high accuracy through effective data augmentation. This approach demonstrates strong generalization, making it suitable for practical applications in image classification.
+
 </br>
 </br>
 </br>
 
 ## RESULT
+Transfer Learning for Horses_vs_humans dataset classification using InceptionV3 architecture is implemented successfully.
+
 </br>
 </br>
 </br>
